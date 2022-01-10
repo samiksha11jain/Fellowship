@@ -19,7 +19,8 @@ namespace Testprogram
             //Console.WriteLine("instance variable: "+reverse.numb);
             // Console.WriteLine("static variable: " + Reversenumber.first);
             //Reversenumber.TestMetho
-            Replaceword.ReadingInputFromUser();
+            // Replaceword.ReadingInputFromUser();
+            Swaptwonumber.ReadingInputFromUser();
             Console.Read();
         }
     }

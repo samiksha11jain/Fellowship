@@ -48,6 +48,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Replaceword.cs" />
     <Compile Include="Reversenumber.cs" />
+    <Compile Include="Swaptwonumber.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
