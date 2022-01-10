@@ -6,12 +6,15 @@ using System.Threading.Tasks;
 
 namespace Testprogram
 {
-    internal class Program
+     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("welcome to fellowship");
-            Console.ReadLine();
+            //Console.WriteLine("welcome to fellowship");
+           // Console.ReadLine();
+            //className variable=new class
+            Fibonocciseries fibonocciseries = new Fibonocciseries();
+            Console.Read();
         }
     }
 }
