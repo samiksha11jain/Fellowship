@@ -14,11 +14,12 @@ namespace Testprogram
             // Console.ReadLine();
             //className variable=new className()
             //Fibonocciseries fibonocciseries = new Fibonocciseries();
-            Reversenumber reverse = new Reversenumber();
-            reverse.FindReverse();
-            Console.WriteLine("instance variable: "+reverse.numb);
-            Console.WriteLine("static variable: " + Reversenumber.first);
-            Reversenumber.TestMethod();
+            // Reversenumber reverse = new Reversenumber();
+            // reverse.FindReverse();
+            //Console.WriteLine("instance variable: "+reverse.numb);
+            // Console.WriteLine("static variable: " + Reversenumber.first);
+            //Reversenumber.TestMetho
+            Replaceword.ReadingInputFromUser();
             Console.Read();
         }
     }

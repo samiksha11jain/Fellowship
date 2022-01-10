@@ -46,6 +46,7 @@
     <Compile Include="Fibonocciseries.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Replaceword.cs" />
     <Compile Include="Reversenumber.cs" />
   </ItemGroup>
   <ItemGroup>
