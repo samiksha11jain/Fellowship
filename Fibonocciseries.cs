@@ -16,12 +16,21 @@ namespace Testprogram
         /// </summary>
         public int firstnum=0, secondnum=1, result=0;
 
-        public static void FindFibonocciseries()
+        public void FindFibonocciseries()
         {
             Console.WriteLine("please enter number to generate series");
             //string num = Console.ReadLine();
             int num=Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("user number is: " + num);
+            result = firstnum + secondnum;
+            Console.Write("series are:" + firstnum + " " + secondnum);
+            for(int i = 2; i < num;i++)
+            {
+                firstnum = secondnum;
+                secondnum = result;
+                Console.Write(" " + result);
+                result = firstnum + secondnum;
+            }
         }
     }
 }

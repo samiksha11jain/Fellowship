@@ -12,7 +12,7 @@ namespace Testprogram
         {
             //Console.WriteLine("welcome to fellowship");
            // Console.ReadLine();
-            //className variable=new class
+            //className variable=new className()
             Fibonocciseries fibonocciseries = new Fibonocciseries();
             Console.Read();
         }
