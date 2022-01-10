@@ -11,9 +11,14 @@ namespace Testprogram
         static void Main(string[] args)
         {
             //Console.WriteLine("welcome to fellowship");
-           // Console.ReadLine();
+            // Console.ReadLine();
             //className variable=new className()
-            Fibonocciseries fibonocciseries = new Fibonocciseries();
+            //Fibonocciseries fibonocciseries = new Fibonocciseries();
+            Reversenumber reverse = new Reversenumber();
+            reverse.FindReverse();
+            Console.WriteLine("instance variable: "+reverse.numb);
+            Console.WriteLine("static variable: " + Reversenumber.first);
+            Reversenumber.TestMethod();
             Console.Read();
         }
     }
